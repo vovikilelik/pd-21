@@ -17,7 +17,10 @@ def print_goods(goods: list[Cargo]):
 DEFAULT_STORE_GOODS = [
     Cargo('Печеньки', 10),
     Cargo('Сосиськи', 10),
-    Cargo('Сардельки', 10)
+    Cargo('Сардельки', 10),
+    Cargo('Хлебушек', 10),
+    Cargo('Конфетки', 10),
+    Cargo('Пироженки', 10)
 ]
 
 

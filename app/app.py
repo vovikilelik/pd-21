@@ -52,7 +52,7 @@ def get_good(goods):
 def get_cargo(source_good):
     while True:
         amount = int(input(f'Укажите число: (1-{source_good.amount})'))
-        if amount < source_good.amount:
+        if 0 < amount <= source_good.amount:
             print('Пакуем товар...')
             return Cargo(source_good.name, amount)
         else:
